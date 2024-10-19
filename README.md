@@ -15,11 +15,6 @@ This is a simple Todo List application built with React. Users can add, delete, 
 
 To get a local copy of the project up and running, follow these steps:
 
-### Prerequisites
-
-- Node.js (v12 or higher)
-- npm (v6 or higher)
-
 ### Installation
 
 1. Clone the repository:

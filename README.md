@@ -1,6 +1,6 @@
 # React Todo App
 
-![Screenshot](https://github.com/KonyD/react-color-picker/blob/main/src/assets/color-picker.png)
+![Screenshot](https://github.com/KonyD/react-todo-app/blob/main/screenshot.png) 
 
 This is a simple Todo List application built with React. Users can add, delete, and rearrange tasks using intuitive controls. The app provides a clean interface for managing daily tasks, making it easier to stay organized.
 
@@ -14,11 +14,6 @@ This is a simple Todo List application built with React. Users can add, delete, 
 ## Getting Started
 
 To get a local copy of the project up and running, follow these steps:
-
-### Prerequisites
-
-- Node.js (v12 or higher)
-- npm (v6 or higher)
 
 ### Installation
 

@@ -10,6 +10,7 @@ This is a simple Todo List application built with React. Users can add, delete, 
 - **Delete Tasks:** Users can remove any task from the list.
 - **Move Tasks:** Users can rearrange tasks by moving them up or down in the list.
 - **Responsive Design:** The app is designed to be user-friendly and responsive.
+- **Save Tasks:** Tasks are automatically saved in local storage and will persist even after refreshing the page.
 
 ## Getting Started
 

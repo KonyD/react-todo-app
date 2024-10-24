@@ -20,25 +20,25 @@ body {
 
 .container {
   background-color: var(--react-gray);
-  padding: 30px;
+  padding: 40px; /* Increased padding for better space */
   border-radius: 12px;
-  width: 400px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 420px; /* Increased width slightly */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow */
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 30px; /* Increased margin for better separation */
   width: 100%;
 }
 
 h2 {
   color: var(--react-blue);
-  margin: 20px;
+  margin: 0; /* Removed excess margin */
   text-align: center;
-  font-size: 24px;
+  font-size: 26px; /* Slightly larger font size */
   letter-spacing: 1px;
 }
 
@@ -46,12 +46,12 @@ h2 {
   padding: 12px;
   border: 1px solid var(--react-blue);
   border-radius: 8px;
-  flex: 1; /* Ensure the input takes as much space as possible */
-  margin-right: 10px; /* Add some space between the input and button */
+  flex: 1;
+  margin-right: 10px;
   font-size: 16px;
   background-color: var(--react-dark-blue);
   color: var(--react-white);
-  box-sizing: border-box; /* Include padding and border in element's width */
+  box-sizing: border-box;
 }
 
 .addButton {
@@ -63,7 +63,7 @@ h2 {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  flex-shrink: 0; /* Prevent the button from shrinking */
+  flex-shrink: 0;
 }
 
 .addButton:hover {
@@ -86,7 +86,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Increased shadow */
   width: 100%;
   box-sizing: border-box;
 }
@@ -94,21 +94,23 @@ li {
 li .text {
   color: var(--react-dark-blue);
   font-size: 16px;
-  flex-grow: 1; /* Make the text area flexible */
-  margin-right: 10px; /* Add space between text and buttons */
+  flex-grow: 1;
+  margin-right: 10px;
+  word-wrap: break-word; /* Allow text to wrap */
+  max-width: 240px; /* Ensure long text doesn’t overflow */
 }
 
 .delete-button, .move-button {
   background-color: var(--react-dark-blue);
   color: var(--react-white);
   border: none;
-  padding: 8px;
-  margin-left: 10px;
+  padding: 10px; /* Increased padding for better button size */
+  margin-left: 8px;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px; /* Slightly smaller font size for better fit */
   transition: background-color 0.3s ease;
-  flex-shrink: 0; /* Prevent buttons from shrinking */
+  flex-shrink: 0;
 }
 
 .delete-button:hover {
